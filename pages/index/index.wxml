@@ -1,0 +1,27 @@
+		<view class="page1">
+			<view class="top">
+				<view class="text-box">
+					<view>
+						<view>山水一程</view>
+						<view>三生有幸</view>
+						<view>与君共途</view>
+						<view>不枉此生</view>
+						<view>从此，有人问我粥可温</view>
+						<view>有人与我共黄昏</view>
+					</view>
+					<view>
+						<view class="timer2">{{timer2}}</view>
+						<view class="timer1">{{timer1}}</view>
+					</view>
+				</view>
+			</view>
+			<view class="bottom"></view>
+		</view>
+		<view class="page2">
+			<view class="text-box">
+        <view>初见乍欢</view>
+        <view>久处仍怦然</view>
+        <view>时光往复</view>
+        <view>爱你如初</view>
+			</view>
+		</view>

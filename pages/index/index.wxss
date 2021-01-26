@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'font1';
+  src: url("https://imw10000.github.io/font2.ttf")
+}
+body {
+  background: #000;
+  margin: 0;
+  font-family: 'font1' !important;
+}
+.page1 {
+  height: 100vh;
+  overflow-y: scroll;
+  position: relative;
+  z-index: 3;
+}
+.page1::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+.page1 .top {
+  height: 100vh;
+  background: #000;
+}
+.page1 .bottom {
+  height: 100vh;
+  background: transparent;
+}
+.page2 {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: #fff;
+}
+.page2 .text-box {
+  color: #000;
+}
+.text-box {
+  font-size: 56rpx;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'font1' !important;
+}
+.timer1, .timer2 {
+  font-size: 56rpx;
+  font-family: 'font1' !important;
+}
